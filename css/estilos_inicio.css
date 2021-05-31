@@ -1,0 +1,246 @@
+/*ESTILOS PARA TODA LA PAGIMA WEB*/
+*{
+    margin:0px;
+    padding:0px;
+    
+}
+
+/*---------------------------------------------------------------------------------------------------------------
+/*ESTILOS PARA EL BODY*/
+body{
+   background:beige;
+   font-family: "Segoe UI",Arial,sans-serif;
+}
+
+/*---------------------------------------------------------------------------------------------------------------
+/*ESTILOS PARA EL HEADER*/
+header{
+    width: 100%;
+    margin:auto;
+    /*background:#C89EE5;*/
+    margin: 20px auto;
+}
+
+header .titulo{
+    top: 0;
+    padding-left: 10px;
+    width: 100%;
+    font-size: 30px;
+    background-color: #915736;
+    text-align: center;
+}
+
+header nav{
+    overflow: hidden;
+    margin: 15px auto;
+    box-shadow: 0px 1px 10px;
+}
+
+header nav ul{
+    list-style: none;
+}
+
+header nav ul li{
+    float: left;
+   
+}
+
+header nav ul li a{
+    padding: 10px 45px;
+    color: black;
+    display: block;
+    text-decoration: none; 
+    font-size: 18px;  
+}
+
+header nav ul li a:hover{
+    background: beige;
+}
+
+nav{
+    width: 100%;
+    margin:auto;
+    background: #915736;
+    
+}
+
+/*---------------------------------------------------------------------------------------------------------------
+/*ESTILOS PARA EL MAIN DE LA PAGINA WEB*/
+.main{
+    width: 80%;
+    margin:auto;
+}
+
+.main h2{
+    text-align: center;    
+}
+
+.main .recetas_dia{
+    background: beige;
+    margin-bottom: 60px;
+    padding: 25px;
+    overflow: hidden;
+    box-shadow: 0px 1px 10px;
+}
+
+.main .recetas_dia .imagen{
+   
+    float: left;
+    width: 50%;
+    display: block;
+    margin-right: 5%;
+    
+
+}
+
+.imagen img{
+
+    box-shadow: 0px 1px 10px;
+
+}
+
+.main .recetas_dia .historia{
+    float: left;
+    width: 30%;
+    padding: 30px;
+    text-align: justify;
+}
+
+.main .recetas_dia .historia h3{
+    text-align: center;
+}
+
+.main .novedades{
+    background: beige;
+    margin-bottom: 60px;
+    padding: 25px;
+    box-shadow: 0px 1px 10px;
+}
+
+.main .novedades h3{
+
+text-align: left;
+font-size: 30px;
+font-weight: 400;
+
+}
+
+.main .novedades img{
+
+width: 200px;
+height: 300px;
+float: left;
+margin-right: 20px;
+box-shadow: 0px 1px 10px;
+
+}
+
+.main .novedades p{
+
+text-align: justify;
+font-size: 18px;
+margin-top: 20px;
+ 
+}
+
+.main .recetas_destacadas{
+    
+    background: beige;
+    margin-bottom: 50px;
+    padding: 25px;
+    box-shadow: 0px 1px 10px;
+}
+
+.buscarI{
+
+position: absolute;
+padding: 5px;
+
+}
+
+.buscarI input{
+
+    width: 240px;
+    height: 30px;
+    padding: 0 20px;
+    font-size: 18px;
+    color: black;
+    outline: none;
+    border: 1px solid silver;
+    border-radius: 30px;
+    box-shadow: 0px 1px 5px;
+}
+
+.btn{
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: beige;
+    width: 40px;
+    height: 40px;
+    line-height: 42px;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0px 1px 5px;
+
+}
+
+.recetas_destacadas .Recetas{
+
+display: flex;
+
+} 
+
+.recetas_destacadas .Recetas .Receta1 img{
+margin-left: 30px;
+width: 300px;
+margin-right: 50px;
+box-shadow: 0px 1px 10px;
+}
+.recetas_destacadas .Recetas .Receta2 img{
+    box-shadow: 0px 1px 10px;
+    margin-left: 50px;
+    width: 300px;
+    margin-right: 50px
+}
+.recetas_destacadas .Recetas .Receta3 img{
+
+    margin-left: 50px;
+    width: 250px;
+    box-shadow: 0px 1px 10px;
+    
+}
+.recetas_destacadas .Recetas .Receta1 h3{
+
+    margin-left: 35px;
+
+}
+
+.recetas_destacadas .Recetas .Receta2 h3{
+
+    margin-left: 40px;
+
+}
+.recetas_destacadas .Recetas .Receta3 h3{
+
+    margin-left: 40px;
+
+}
+
+/*---------------------------------------------------------------------------------------------------------------
+/*ESTILOS PARA EL PIE DE PAGINA*/
+footer{
+    width: 100%;
+    margin:auto;
+    /*background: yellow;*/
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+footer a{
+    text-decoration:none;
+    margin: auto 55px;
+}
+

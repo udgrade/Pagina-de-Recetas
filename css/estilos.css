@@ -1,0 +1,130 @@
+/*ESTILOS PARA TODA LA PAGIMA WEB*/
+*{
+    margin:0px;
+    padding:0px;
+    
+}
+
+/*ESTILOS PARA EL BODY*/
+body{
+   background:#d0d1e6;
+}
+
+/*ESTILOS PARA EL HEADER*/
+header{
+    width: 100%;
+    margin:auto;
+    /*background:#C89EE5;*/
+    margin: 20px auto;
+}
+
+.titulo{
+    width: 100%;
+    margin:auto;
+    /*border-style: solid;
+    border-color: fuchsia;*/
+    font-family: 'Anton', sans-serif;
+    font-family: 'Kufam', cursive;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.titulo a{
+    text-align: right;
+    margin-right:30px;
+    color:blue;
+    text-decoration: none;
+    float: left;
+}
+
+.titulo, .login{
+    display: flex;
+    align-items: center;
+}
+
+.login{
+    margin-left: 53%;
+    font-size: 17px; 
+}
+
+header nav{
+    overflow: hidden;
+    margin: 15px auto;
+}
+
+header nav ul{
+    list-style: none;
+}
+
+header nav ul li{
+    float: left; 
+}
+
+header nav ul li a{
+    padding: 10px 90px;
+    color: black;
+    display: block;
+    text-decoration: none; 
+}
+
+header nav ul li a:hover{
+    background: #CAFFF9; 
+}
+
+nav{
+    width: 100%;
+    margin:auto;
+    background: #98A9FF;
+}
+
+
+/*ESTILOS PARA EL MAIN DE LA PAGINA WEB*/
+.main{
+    width: 80%;
+    margin:auto;
+    /*background: white;*/
+}
+
+.main h2{
+    text-align: center;    
+}
+
+.recetas_dia{
+    /*border-style: solid;
+    border-color: darkturquoise;*/
+    background: #E6E6E6;
+    margin-bottom: 60px;
+    padding: 25px;
+    
+}
+
+.novedades{
+    /*border-style: solid;
+    border-color: red;*/
+    background: #E6E6E6;
+    margin-bottom: 60px;
+    padding: 25px;
+}
+
+.recetas_destacadas{
+    /*border-style: solid;
+    border-color: green;*/
+    background: #E6E6E6;
+    margin-bottom: 50px;
+    padding: 25px;
+}
+
+
+/*ESTILOS PARA EL PIE DE PAGINA*/
+footer{
+    width: 100%;
+    margin:auto;
+    /*background: yellow;*/
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+footer a{
+    text-decoration:none;
+    margin: auto 55px;
+}
+

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>REGISTRO</title>
+    <link rel="stylesheet" type="text/css" href="../css/estilos_login.css">
+    <script src="https://kit.fontawesome.com/a8d01b58f6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Kufam:ital,wght@1,600&family=Source+Code+Pro:ital,wght@1,500&display=swap" rel="stylesheet">
+</head>
+    
+<header>
+    
+    <li class="back"><a href="inicio.html"><b><< REGRESAR</b></a>
+  
+</header>
+
+<body>
+
+    <form class="formulario">
+
+    <h1>INICIO SESION</h1>
+    <div class="contenedorR">
+
+    <div class="input-contenedorR">
+
+        <i class="fas fa-envelope"></i>
+        <input type="text" id="email" placeholder="Correo Electronico">
+
+    </div>
+
+    <div class="input-contenedorR">
+
+        <i class="fas fa-lock"></i>
+        <input type="password" id="contraseña" placeholder="Contraseña">
+
+    </div>
+
+    <input type="submit" value="INICIAR SESION" class="buttonR">
+
+    <p>¿No Estas Registrado?<a class="link" href="registro.html"> REGISTRATE</a></p>
+
+    </div>
+
+    </form>
+
+
+<!--Firebase Scripts-->
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/7.22.1/firebase-app.js"></script>
+
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+  <script src="https://www.gstatic.com/firebasejs/7.22.1/firebase-analytics.js"></script>
+
+  <script src="https://www.gstatic.com/firebasejs/7.22.1/firebase-auth.js"></script>
+
+  <script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyCYaHxEMtqJ5lpXkfSU8VaRjWsFIuFlAMc",
+    authDomain: "usuarios-web.firebaseapp.com",
+    databaseURL: "https://usuarios-web.firebaseio.com",
+    projectId: "usuarios-web",
+    storageBucket: "usuarios-web.appspot.com",
+    messagingSenderId: "730572410386",
+    appId: "1:730572410386:web:be554fe6f2bf53a64752cb",
+    measurementId: "G-V9WD9KJV16"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+  const auth = firebase.auth();
+  </script>
+    <script src="../JS/login.js"></script>
+
+</body>
+    
+</html>

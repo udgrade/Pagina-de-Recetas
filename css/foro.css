@@ -1,0 +1,54 @@
+body{
+
+    background: url(../Imagenes/RegistroFondo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+#btn-task-form{
+
+    background: #282c34;
+    border-color: black;
+
+}
+
+.card-body{
+
+ background: beige;
+
+}
+
+#btnD{
+
+    background: #282c34;
+    border-color: black;
+}
+
+#btnE{
+
+    background: #282c34;
+    border-color: black;
+    color: white;
+}
+
+#contenedor4k{
+
+    background: beige;
+    border-color: black;
+
+}
+
+.back{
+
+   background-color: beige;
+   color: white;
+   font-size: 20px;
+
+}
+
+b{
+
+color: black;
+
+}
